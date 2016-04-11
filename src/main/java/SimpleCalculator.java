@@ -18,13 +18,17 @@ public class SimpleCalculator {
 
 	public void div(int x, int y) {
 
-		if (y!=0) //ºÐ¸ð°¡ 0ÀÎ°æ¿ì  
+		if (y!=0) //ï¿½Ð¸ï¿½ 0ï¿½Î°ï¿½ï¿½  
 			result = x/y;
 	}
 	
 	public void inc(int x) {
   
 			result +=x;
+	}
+	
+	public void dec(int x) {
+		result -=x;
 	}
 	
 	public int getResult() {
